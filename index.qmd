@@ -1,17 +1,71 @@
-# Preface {.unnumbered}
+# Particle Physics From 40,000 Feet
 
 I hope you're here because you want to learn about Feynman Diagrams. With a little bit of work, we can create a Feynman Diagram for any elementary particle process according to the rules that respect special relativity and quantum mechanics. I do this with my non-science student classes and you can too.
 
-Feynman Diagrams (I'll call them "FD") are one of those things that seemingly have one purpose, but actually hide a deeper one. For professional physicists, a Feynman Diagram is a very complex instruction on how to assemble the flow of a reaction or a decay according to the rules of quantum mechanics. There are two ways to do this: the hard way and the less-hard way. The hard way is a laborious and fragile calculational setup, followed by a laborious and complicated calculation of the actual process. The easy way is to draw the Feynman Diagram and then do the second, laborious and complicated calculation.
+Feynman Diagrams (I'll call them "FD") are one of those things that seemingly have one purpose, but actually hide a deeper one. For professional physicists, a Feynman Diagram is a very complex instruction on how to assemble the flow of a reaction or a decay according to the rules of quantum mechanics. There are two ways to do this: the hard way and the less-hard way. The hard way is a laborious and fragile calculational setup, followed by a laborious and complicated calculation of the actual process. The easy way is to draw the Feynman Diagram, use some rules that attach mathematical expressions to the line-elements of the diagram, lay them out in a big equation, and *then* do the second, laborious and complicated calculation.
 
 ::: column-margin
-![An electron radiating a photon. Simple idea but full of meaning.](radiation_0.png){width=100%}
+![An electron radiating a photon. Simple idea but full of meaning.](radiation_0.png){width="100%" #fig-erad}
 :::
 
-But perhaps accidentally, but at least fortunately Feynman Diagrams are instructive as a pattern. They appear to *look* like the reaction itself.
+But perhaps accidentally, but at least fortunately, Feynman Diagrams are instructive as a pattern. They appear to *look* like the reaction itself.
+
+Look at the Figure @fig-erad in the margin. It has all of the "parts" of a FD and even tells the story. You see two straight lines and a wavy line. The straight lines refer to an electron and the wavy line a photon. Time (for me...others do it differently) moves from left to right. So now you can "see" what's going on, right? An elecron comes in and an electron and photon go out. At the point labeled "g" something happens.
+
+"In" and "out" and "something happens"? There are a few terms that I'll use over and over. Let's bake a cake.
+
+## Using Feynman Diagrams, from 30,000 feet
+
+```{r}
+#| label: fig-process
+#| fig-cap: "Ingredients for a particle physics model: from idea to prediction."
+#| cap-location: margin
+#| out.width: "100%"
+#| echo: false
+knitr::include_graphics("screenshot_3613.png")
+```
 
 
+Figure @fig-process is a cartoon that explains roughly what goes on with FD and experiments. A theoretical physicist (or sometiems an experimental physicist) has an idea for a new reaction or particle. One can't just assert something off-hand, but rather this new idea has to be consistent with the current state of affairs in physics and the language in which that idea must be formulated must be the language that we speak: Relativistic Quantum Field Theory. It has to conserve energy and momentum. It has to work within the rules of quantum mechanics and special relativity. 
 
-Look at the figure in the margin. It has all of the "parts" of a FD and even tells the story. You see two straight lines and a wavy line. The straight lines refer to an electron and the wavy line a photon. Time (for me...others do it differently) moves from left to right. So now you can "see" what's going on, right? An elecron comes in and an electron and photon go out. At the point labeled "g" something happens.
+New ideas can expand existing models in various ways and the place for our theorist to start is by drawing the appropriate FDs and doing some calculations. The FD would lead to predictions of how experiments might discover the new particles or new dynamics that come out of modeling the idea. In the cartoon, you can see a circled set of FDs and below that curves that show the predictions that come from evaluating the equations that the FDs provide which become predictions of the outcomes of some measurement.
 
-"In" and "out" and "something happens"? There are a few terms that I'll use over and over.
+## What about In and Out?
+
+Let's bake a cake. The process has roughly three steps: Ingredients, a process, and then a...cake. What goes In are the ingredients (we'd call that the Initial State) and what comes out is the cake (we'd call that the Final State). The chemistry and Nature...well, that's in-between.
+
+```{r}
+#| label: fig-inout
+#| fig-cap: "Baking a particle with particle ingredients. Okay. It's a cake from regular ingredients."
+#| cap-location: margin
+#| out.width: "100%"
+#| echo: false
+knitr::include_graphics("screenshot_3614.png")
+```
+
+
+Figure @fig-inout is a cartoon of the process. Let's break it down.
+
+* The initial state consists of a number of ingredients – the particles – all of which are mixed together. Eggs, flour, milk, butter, sugar, chocolate and so on. To get really geeky about it, each ingredient is on its own path in space and in time until they come together. The milk travels from refrigerator to hand to bowl. The eggs take a similar path, but the flour comes from a point in space that coincides with the pantry...but it and the others all come together into the same bowl.
+* The final state is in this case a single object, a single particle. A cake. 
+* The initial state is a setup. The final state is an inevitable outcome, but the science is in the middle. That's where the chemistry and the physics happen. If the ingredients are the correct ones, in the correct amounts, and mixed together just right, the outcome is predictable. The recipe describes the model of what goes in in the middle. In fact, a recipe is a logical set of instructions, not unlike a mathematical model or a FD-inspired model. 
+
+Now the rules of chemistry are well-understood and while an inventive pastry chef might, and often does, come up with a unique set of ingredients and a unique application of chemistry and physics, the outcome may work or it may not. The model (a new idea) might not work. But no recipe will take these incredients and create a giraffe in the final state.
+
+That's where particle physics can surprise. The rules allow you to sometimes predict and discover new things that are not at all like the original things...from your refrigerator or pantry.
+
+That's partly why particle physics is fun. Here's a FD for a particle physics interaction that encompasses a "middle" just waiting for a theorist to model.
+
+```{r}
+#| label: fig-initial
+#| fig-cap: “A Feynman Diagram of two particles colliding in the initial state and producing four particles in the final state. How we get from one to the other depends on the physics rules in the red blob. That's where the action is in particle physics. That's where the physics model is described."
+#| cap-location: margin
+#| out.width: "100%"
+#| echo: false
+knitr::include_graphics("screenshot_3615.png")
+```
+
+
+I'll bet you can fill in the cooking story as an overlay to the drawing in Figure @fig-initial. Here two ingredients come in and multiple objects come out. The initial state might be bare cupcakes and frosting (two particles), the final state might be decorated cupcakes of different kinds. While the middle...is the putting of the intitial state particles together. But again, no giraffe.
+
+But while the chemistry and physics in the kitchen pretty much are the story of cooking, in particle physics the action is in the middle. It's that middle where the inventiveness and yes, the FDs, are deployed to make a possible outcome that can be measured. That red blob might involve new states of matter or new ways for particles to interact. It's a little testing ground for ideas. 

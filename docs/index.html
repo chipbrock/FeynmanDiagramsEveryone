@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Particle Physics From 40,000 Feet</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -110,19 +110,19 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preface</span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Particle Physics From 40,000 Feet</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./ch_What is a Feynman Diagram/What is a Feynman Diagram.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is a Feynman Diagram?</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">What is a Feynman Diagram?</span></span></a>
   </div>
 </li>
     </ul>
@@ -147,7 +147,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#particle-physics-from-40000-feet" id="toc-particle-physics-from-40000-feet" class="nav-link active" data-scroll-target="#particle-physics-from-40000-feet"><span class="header-section-number">1</span> Particle Physics From 40,000 Feet</a>
+  <ul class="collapse">
+  <li><a href="#using-feynman-diagrams-from-30000-feet" id="toc-using-feynman-diagrams-from-30000-feet" class="nav-link" data-scroll-target="#using-feynman-diagrams-from-30000-feet"><span class="header-section-number">1.1</span> Using Feynman Diagrams, from 30,000 feet</a></li>
+  <li><a href="#what-about-in-and-out" id="toc-what-about-in-and-out" class="nav-link" data-scroll-target="#what-about-in-and-out"><span class="header-section-number">1.2</span> What about In and Out?</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -185,23 +189,89 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="preface" class="level1 unnumbered page-columns page-full">
-<h1 class="unnumbered">Preface</h1>
+<section id="particle-physics-from-40000-feet" class="level1 page-columns page-full" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Particle Physics From 40,000 Feet</h1>
 <p>I hope you’re here because you want to learn about Feynman Diagrams. With a little bit of work, we can create a Feynman Diagram for any elementary particle process according to the rules that respect special relativity and quantum mechanics. I do this with my non-science student classes and you can too.</p>
-<p>Feynman Diagrams (I’ll call them “FD”) are one of those things that seemingly have one purpose, but actually hide a deeper one. For professional physicists, a Feynman Diagram is a very complex instruction on how to assemble the flow of a reaction or a decay according to the rules of quantum mechanics. There are two ways to do this: the hard way and the less-hard way. The hard way is a laborious and fragile calculational setup, followed by a laborious and complicated calculation of the actual process. The easy way is to draw the Feynman Diagram and then do the second, laborious and complicated calculation.</p>
+<p>Feynman Diagrams (I’ll call them “FD”) are one of those things that seemingly have one purpose, but actually hide a deeper one. For professional physicists, a Feynman Diagram is a very complex instruction on how to assemble the flow of a reaction or a decay according to the rules of quantum mechanics. There are two ways to do this: the hard way and the less-hard way. The hard way is a laborious and fragile calculational setup, followed by a laborious and complicated calculation of the actual process. The easy way is to draw the Feynman Diagram, use some rules that attach mathematical expressions to the line-elements of the diagram, lay them out in a big equation, and <em>then</em> do the second, laborious and complicated calculation.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="radiation_0.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>An electron radiating a photon. Simple idea but full of meaning.</figcaption>
+<div id="fig-erad" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-erad-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="radiation_0.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-erad-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.1: An electron radiating a photon. Simple idea but full of meaning.
+</figcaption>
 </figure>
 </div>
-</div></div><p>But perhaps accidentally, but at least fortunately Feynman Diagrams are instructive as a pattern. They appear to <em>look</em> like the reaction itself.</p>
-<p>Look at the figure in the margin. It has all of the “parts” of a FD and even tells the story. You see two straight lines and a wavy line. The straight lines refer to an electron and the wavy line a photon. Time (for me…others do it differently) moves from left to right. So now you can “see” what’s going on, right? An elecron comes in and an electron and photon go out. At the point labeled “g” something happens.</p>
-<p>“In” and “out” and “something happens”? There are a few terms that I’ll use over and over.</p>
+</div></div><p>But perhaps accidentally, but at least fortunately, Feynman Diagrams are instructive as a pattern. They appear to <em>look</em> like the reaction itself.</p>
+<p>Look at the Figure <a href="#fig-erad" class="quarto-xref">Figure&nbsp;<span>1.1</span></a> in the margin. It has all of the “parts” of a FD and even tells the story. You see two straight lines and a wavy line. The straight lines refer to an electron and the wavy line a photon. Time (for me…others do it differently) moves from left to right. So now you can “see” what’s going on, right? An elecron comes in and an electron and photon go out. At the point labeled “g” something happens.</p>
+<p>“In” and “out” and “something happens”? There are a few terms that I’ll use over and over. Let’s bake a cake.</p>
+<section id="using-feynman-diagrams-from-30000-feet" class="level2 page-columns page-full" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="using-feynman-diagrams-from-30000-feet"><span class="header-section-number">1.1</span> Using Feynman Diagrams, from 30,000 feet</h2>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-process" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-process-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="screenshot_3613.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-process-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.2: Ingredients for a particle physics model: from idea to prediction.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Figure <a href="#fig-process" class="quarto-xref">Figure&nbsp;<span>1.2</span></a> is a cartoon that explains roughly what goes on with FD and experiments. A theoretical physicist (or sometiems an experimental physicist) has an idea for a new reaction or particle. One can’t just assert something off-hand, but rather this new idea has to be consistent with the current state of affairs in physics and the language in which that idea must be formulated must be the language that we speak: Relativistic Quantum Field Theory. It has to conserve energy and momentum. It has to work within the rules of quantum mechanics and special relativity.</p>
+<p>New ideas can expand existing models in various ways and the place for our theorist to start is by drawing the appropriate FDs and doing some calculations. The FD would lead to predictions of how experiments might discover the new particles or new dynamics that come out of modeling the idea. In the cartoon, you can see a circled set of FDs and below that curves that show the predictions that come from evaluating the equations that the FDs provide which become predictions of the outcomes of some measurement.</p>
+</section>
+<section id="what-about-in-and-out" class="level2 page-columns page-full" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="what-about-in-and-out"><span class="header-section-number">1.2</span> What about In and Out?</h2>
+<p>Let’s bake a cake. The process has roughly three steps: Ingredients, a process, and then a…cake. What goes In are the ingredients (we’d call that the Initial State) and what comes out is the cake (we’d call that the Final State). The chemistry and Nature…well, that’s in-between.</p>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-inout" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-inout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="screenshot_3614.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-inout-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.3: Baking a particle with particle ingredients. Okay. It’s a cake from regular ingredients.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Figure <a href="#fig-inout" class="quarto-xref">Figure&nbsp;<span>1.3</span></a> is a cartoon of the process. Let’s break it down.</p>
+<ul>
+<li>The initial state consists of a number of ingredients – the particles – all of which are mixed together. Eggs, flour, milk, butter, sugar, chocolate and so on. To get really geeky about it, each ingredient is on its own path in space and in time until they come together. The milk travels from refrigerator to hand to bowl. The eggs take a similar path, but the flour comes from a point in space that coincides with the pantry…but it and the others all come together into the same bowl.</li>
+<li>The final state is in this case a single object, a single particle. A cake.</li>
+<li>The initial state is a setup. The final state is an inevitable outcome, but the science is in the middle. That’s where the chemistry and the physics happen. If the ingredients are the correct ones, in the correct amounts, and mixed together just right, the outcome is predictable. The recipe describes the model of what goes in in the middle. In fact, a recipe is a logical set of instructions, not unlike a mathematical model or a FD-inspired model.</li>
+</ul>
+<p>Now the rules of chemistry are well-understood and while an inventive pastry chef might, and often does, come up with a unique set of ingredients and a unique application of chemistry and physics, the outcome may work or it may not. The model (a new idea) might not work. But no recipe will take these incredients and create a giraffe in the final state.</p>
+<p>That’s where particle physics can surprise. The rules allow you to sometimes predict and discover new things that are not at all like the original things…from your refrigerator or pantry.</p>
+<p>That’s partly why particle physics is fun. Here’s a FD for a particle physics interaction that encompasses a “middle” just waiting for a theorist to model.</p>
+<div class="cell page-columns page-full" data-cap-location="margin">
+<div class="cell-output-display page-columns page-full">
+<div id="fig-initial" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full" data-cap-location="margin">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-initial-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="screenshot_3615.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-initial-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.4: “A Feynman Diagram of two particles colliding in the initial state and producing four particles in the final state. How we get from one to the other depends on the physics rules in the red blob. That’s where the action is in particle physics. That’s where the physics model is described.”
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>I’ll bet you can fill in the cooking story as an overlay to the drawing in Figure <a href="#fig-initial" class="quarto-xref">Figure&nbsp;<span>1.4</span></a>. Here two ingredients come in and multiple objects come out. The initial state might be bare cupcakes and frosting (two particles), the final state might be decorated cupcakes of different kinds. While the middle…is the putting of the intitial state particles together. But again, no giraffe.</p>
+<p>But while the chemistry and physics in the kitchen pretty much are the story of cooking, in particle physics the action is in the middle. It’s that middle where the inventiveness and yes, the FDs, are deployed to make a possible outcome that can be measured. That red blob might involve new states of matter or new ways for particles to interact. It’s a little testing ground for ideas.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -627,7 +697,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./intro.html" class="pagination-link" aria-label="Introduction">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
