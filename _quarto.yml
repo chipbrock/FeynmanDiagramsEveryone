@@ -3,14 +3,15 @@ project:
   output-dir: docs
 
 book:
-  title: "FeynmanDiagramsEveryone"
-  author: "Norah Jones"
+  title: "Feynman Diagrams for Everyone"
+  author: "Chip Brock"
   date: "7/10/2025"
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
+    - ch_What is a Feynman Diagram/What is a Feynman Diagram.qmd
 
 bibliography: references.bib
 

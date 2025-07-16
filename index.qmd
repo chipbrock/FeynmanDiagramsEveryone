@@ -1,5 +1,17 @@
 # Preface {.unnumbered}
 
-Feynman diagrams are one of those things that seemingly have one purpose, but actually hide a deeper one. For professional physicists, a Feynman Diagram is a very complex instruction on how to assemble the flow of a reaction or a decay according to the rules of quantum mechanics. There are two ways to do this: the hard way and the less-hard way. The hard way is a laborious and fragile calculational setup, followed by a laborious and complicated calculation of the actual process. The easy way is to draw the Feynman Diagram and then do the second, laborious and complicated calculation.
+I hope you're here because you want to learn about Feynman Diagrams. With a little bit of work, we can create a Feynman Diagram for any elementary particle process according to the rules that respect special relativity and quantum mechanics. I do this with my non-science student classes and you can too.
 
-But perhaps accidentally, but at least fortunately Feynman Diagrams are instructive as a pattern. They appear to *look* like the reaction itself. ewfDS
+Feynman Diagrams (I'll call them "FD") are one of those things that seemingly have one purpose, but actually hide a deeper one. For professional physicists, a Feynman Diagram is a very complex instruction on how to assemble the flow of a reaction or a decay according to the rules of quantum mechanics. There are two ways to do this: the hard way and the less-hard way. The hard way is a laborious and fragile calculational setup, followed by a laborious and complicated calculation of the actual process. The easy way is to draw the Feynman Diagram and then do the second, laborious and complicated calculation.
+
+::: column-margin
+![An electron radiating a photon. Simple idea but full of meaning.](radiation_0.png){width=100%}
+:::
+
+But perhaps accidentally, but at least fortunately Feynman Diagrams are instructive as a pattern. They appear to *look* like the reaction itself.
+
+
+
+Look at the figure in the margin. It has all of the "parts" of a FD and even tells the story. You see two straight lines and a wavy line. The straight lines refer to an electron and the wavy line a photon. Time (for me...others do it differently) moves from left to right. So now you can "see" what's going on, right? An elecron comes in and an electron and photon go out. At the point labeled "g" something happens.
+
+"In" and "out" and "something happens"? There are a few terms that I'll use over and over.
